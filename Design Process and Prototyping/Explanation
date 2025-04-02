@@ -2,11 +2,11 @@ After creating ideas of what I wanted to include I moved onto the designing of t
 to, this mainly being the air circulation.
 to include the best air circulation I could, I decided to face the house to the north and allow the windows to have little breaks in
 direction to allow air to flow throughout the house from the back all the way through the living areas.
-to see my original design look at Example.1a under Design Process and Prototyping.
+to see my original design look at Example.1 under Design Process and Prototyping.
 
 After the direction and basic floorplan of the house was complete I moved onto designing the vertical part of the house, ending up with the
 total height of 1.5m for the interior roof and then up to 2.5m total height for the tallest point on the roof on the outside.
-to see the final floor plan and loot at Example.2a
+to see the final floor plan and loot at Example.2 under Design Process and Prototyping.
 
 From this point I moved onto the model of the house out of cardboard, following all of the plans I wrote down in my book.
 all of the images titled for the house are under the 'cardboard house' folder
@@ -21,19 +21,19 @@ a variable to see if the value given changes, leading to the LED which is connec
 I also tried to connect a button to the board to act as a toggle switch, by reading the previous state of the button, as in it starts off 
 as a HIGH or LOW state, but when pin 3 changes value for any amount of time it switches the state of pin 12, in turn storing the value and
 allowing the light to either turn on if motion is detected or remain off depending if the 'light switch' was turned on or not.
-to see the light circuit look at Example.3a
+to see the light circuit look at Example.3 under Design Process and Prototyping.
 
 After the circuit for the light was completed I moved onto the next circuit I wanted to design, which was the the temperature controlled
 fan, this was done by connecting the Fans positive pin to the 6 pin on the arduino and the temperature sensor to the 5 pin, after they are
 connected I can tell the arduino to take the temperature sensors output in celsius, then by using a if statement I can turn on the fan if it
 reaches above a certain temperature, around 30 degrees would be good for the design.
-to see the fan circuit look at Example.4a
+to see the fan circuit look at Example.4 under Design Process and Prototyping.
 
 finally I moved onto the automatic blinds, connecting the stepper motor diver pin N1-N4 to the 8 pin through to the 11 pin on the arduino
 allows me to drive the stepper motor, by having a photo resistor connected to the A0 Pin on the arduino, by connecting the photoresistor
 to the analog pin I am able to collect a output, with this output I am able to decide whether or not to turn the stepper motor X amount of
 times to fully retract or extend the blinds.
-to see the blinds circuit look at Example.5a
+to see the blinds circuit look at Example.5 under Design Process and Prototyping.
 
 
-for a complete view of the circuit view Example.6a.
+for a complete view of the circuit view Example.6 under Design Process and Prototyping.
