@@ -18,4 +18,5 @@ to see the light circuit look at Example.3a
 After the circuit for the light was completed i moved onto the next circuit i wanted to design, which was the the temperature controlled fan, this was dont by connecting the Fans posative pin to the 6 pin on the arduino and the tempreature sensor to the 5 pin, after they are connected i can tell the arduino to take the temperature sensors output in celcius, then by using a if statement i can turn on the fan if it reaches above a certain temperature, around 30 degrees would be good for the design.
 to see the fan circuit look at Example.4a
 
-finally i moved onto the automatic blinds 
+finally I moved onto the automatic blinds, connecting the stepper motor diver pin N1-N4 to the 8 pin through to the 11 pin on the arduino allows me to drive the stepper motor, by having a photo resistor connected to the A0 Pin on the arduino, by connecting the photo resistor to the analog pin i am able to collect a output, with this output i am able to decide whether or not to turn the stepper motor X amount of times to fully retract or extent the blinds.
+to see the blinds circuit look at Example.5a
