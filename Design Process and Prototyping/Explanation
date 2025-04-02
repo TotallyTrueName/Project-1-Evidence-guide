@@ -18,3 +18,4 @@ to see the light circuit look at Example.3a
 After the circuit for the light was completed i moved onto the next circuit i wanted to design, which was the the temperature controlled fan, this was dont by connecting the Fans posative pin to the 6 pin on the arduino and the tempreature sensor to the 5 pin, after they are connected i can tell the arduino to take the temperature sensors output in celcius, then by using a if statement i can turn on the fan if it reaches above a certain temperature, around 30 degrees would be good for the design.
 to see the fan circuit look at Example.4a
 
+finally i moved onto the automatic blinds 
