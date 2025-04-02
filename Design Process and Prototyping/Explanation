@@ -34,3 +34,6 @@ allows me to drive the stepper motor, by having a photo resistor connected to th
 to the analog pin I am able to collect a output, with this output I am able to decide whether or not to turn the stepper motor X amount of
 times to fully retract or extend the blinds.
 to see the blinds circuit look at Example.5a
+
+
+for a complete view of the circuit view Example.6a.
