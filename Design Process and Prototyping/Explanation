@@ -5,13 +5,13 @@ direction to allow air to flow throughout the house from the back all the way th
 to see my original design look at Example.1a under Design Process and Prototyping.
 
 After the direction and basic floorplan of the house was complete I moved onto designing the vertical part of the house, ending up with the
-total height of 1.5m for the interior roof and then upto 2.5m total height for the tallest point on the roof on the outside.
-to see the final floorplan and loot at Example.2a
+total height of 1.5m for the interior roof and then up to 2.5m total height for the tallest point on the roof on the outside.
+to see the final floor plan and loot at Example.2a
 
-From this point I moved onto the model of the house out of card board, following all of the plans I wrote down in my book.
-all of the images titled for the house are under the 'card board house' folder
+From this point I moved onto the model of the house out of cardboard, following all of the plans I wrote down in my book.
+all of the images titled for the house are under the 'cardboard house' folder
 
-After having the layout of my house done I moved onto the planning for the systems Im adding to the house model.
+After having the layout of my house done I moved onto the planning for the systems I'm adding to the house model.
 This had me going to TinkerCad to create online prototypes, this allowed me to create my circuit before and after class when I was working
 on creating the files to make the house out of MDF.
 
@@ -23,14 +23,14 @@ as a HIGH or LOW state, but when pin 3 changes value for any amount of time it s
 allowing the light to either turn on if motion is detected or remain off depending if the 'light switch' was turned on or not.
 to see the light circuit look at Example.3a
 
-After the circuit for the light was completed i moved onto the next circuit i wanted to design, which was the the temperature controlled
-fan, this was dont by connecting the Fans posative pin to the 6 pin on the arduino and the tempreature sensor to the 5 pin, after they are
-connected i can tell the arduino to take the temperature sensors output in celcius, then by using a if statement i can turn on the fan if it
+After the circuit for the light was completed I moved onto the next circuit I wanted to design, which was the the temperature controlled
+fan, this was done by connecting the Fans positive pin to the 6 pin on the arduino and the temperature sensor to the 5 pin, after they are
+connected I can tell the arduino to take the temperature sensors output in celsius, then by using a if statement I can turn on the fan if it
 reaches above a certain temperature, around 30 degrees would be good for the design.
 to see the fan circuit look at Example.4a
 
 finally I moved onto the automatic blinds, connecting the stepper motor diver pin N1-N4 to the 8 pin through to the 11 pin on the arduino
-allows me to drive the stepper motor, by having a photo resistor connected to the A0 Pin on the arduino, by connecting the photo resistor
-to the analog pin i am able to collect a output, with this output i am able to decide whether or not to turn the stepper motor X amount of
-times to fully retract or extent the blinds.
+allows me to drive the stepper motor, by having a photo resistor connected to the A0 Pin on the arduino, by connecting the photoresistor
+to the analog pin I am able to collect a output, with this output I am able to decide whether or not to turn the stepper motor X amount of
+times to fully retract or extend the blinds.
 to see the blinds circuit look at Example.5a
